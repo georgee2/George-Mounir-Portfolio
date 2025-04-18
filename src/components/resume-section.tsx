@@ -29,13 +29,13 @@ const certifications: Certification[] = [
 
 export function ResumeSection() {
   const handleResumeDownload = () => {
-    const resumeUrl = "https://drive.google.com/file/d/1hjMtPNQybwkhhWAmTrIRwnVKCx-vtEgJ/view?usp=sharing";
-    const link = document.createElement('a');
-    link.href = resumeUrl;
-    link.setAttribute('download', 'George_Mounir_Resume.pdf');
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    // Extract file ID from the Google Drive URL
+    const fileId = "1hjMtPNQybwkhhWAmTrIRwnVKCx-vtEgJ";
+    // Create direct download link
+    const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+    
+    // Create and trigger download
+    window.open(downloadUrl, '_blank');
   };
 
   return (
