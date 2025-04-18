@@ -119,11 +119,11 @@ export function ProjectsSection() {
               className="overflow-hidden group hover:shadow-lg transition-all duration-300 animate-fade-in"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <div className="h-48 overflow-hidden">
+              <div className="h-36 flex items-center justify-center p-4 bg-secondary/10">
                 <img 
                   src={project.image} 
                   alt={project.title} 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="max-h-full max-w-full object-contain rounded-lg shadow-sm transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
               <CardHeader>
