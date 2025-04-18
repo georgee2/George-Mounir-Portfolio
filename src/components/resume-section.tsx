@@ -29,7 +29,7 @@ const certifications: Certification[] = [
 
 export function ResumeSection() {
   const handleResumeDownload = () => {
-    const resumeUrl = "https://drive.google.com/uc?export=download&id=1fSGAFg2gYuFSVTVbTkPZzZqRzwGZZpC-";
+    const resumeUrl = "https://drive.google.com/file/d/1hjMtPNQybwkhhWAmTrIRwnVKCx-vtEgJ/view?usp=sharing";
     const link = document.createElement('a');
     link.href = resumeUrl;
     link.setAttribute('download', 'George_Mounir_Resume.pdf');
