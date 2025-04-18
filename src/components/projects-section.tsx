@@ -30,9 +30,9 @@ const projects: Project[] = [
     longDescription: "An app for food ordering, appointment booking, and delivery management. Features three roles: User, Facility (clinic/restaurant), and Driver with real-time tracking. Implemented complex state management for multi-role functionality and integrated Google Maps for real-time location tracking.",
     tech: ["Flutter", "Dart", "REST APIs", "Firebase", "Google Maps", "MVVM"],
     links: {
-      googlePlay: "https://play.google.com/store",
+      googlePlay: "https://play.google.com/store/apps/details?id=com.otlbnegetak.otlbne_getak&hl=en",
     },
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&auto=format&fit=crop&q=80",
+    image: "https://play-lh.googleusercontent.com/wbWaZGKPrbP7IDBwFy2c0VeKBMn3M_hcWC_EF0dRzfydaRgu6cTxOpQF0TZxBbVmkb4=w480-h960",
   },
   {
     id: 2,
