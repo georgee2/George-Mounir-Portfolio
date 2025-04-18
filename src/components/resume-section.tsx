@@ -1,7 +1,6 @@
-
 import { Card, CardContent } from "./ui/card";
 import { Button } from "./ui/button";
-import { FileText } from "lucide-react";
+import { FileDown } from "lucide-react";
 
 interface Certification {
   title: string;
@@ -28,6 +27,16 @@ const certifications: Certification[] = [
 ];
 
 export function ResumeSection() {
+  const handleResumeDownload = () => {
+    const resumeUrl = "https://drive.google.com/uc?export=download&id=YOUR_GOOGLE_DRIVE_FILE_ID";
+    const link = document.createElement('a');
+    link.href = resumeUrl;
+    link.setAttribute('download', 'George_Mounir_Resume.pdf');
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section id="resume" className="py-20">
       <div className="container mx-auto px-4 md:px-8">
@@ -80,8 +89,11 @@ export function ResumeSection() {
                 </ul>
 
                 <div className="mt-6 flex justify-center">
-                  <Button className="flex items-center gap-2">
-                    <FileText size={18} />
+                  <Button 
+                    className="flex items-center gap-2" 
+                    onClick={handleResumeDownload}
+                  >
+                    <FileDown size={18} />
                     <span>Download Full Resume</span>
                   </Button>
                 </div>
