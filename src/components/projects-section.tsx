@@ -41,11 +41,11 @@ const projects: Project[] = [
     longDescription: "ERP-powered clinic management app: supports chat, patient management, insurance, and task tracking. Leveraged ERP systems to create a comprehensive healthcare management solution with real-time data synchronization across all modules.",
     tech: ["Flutter", "MVVM", "Location", "REST APIs", "ERP Integration"],
     links: {
-      googlePlay: "https://play.google.com/store",
-      amazon: "https://www.amazon.com/appstore",
-      huawei: "https://appgallery.huawei.com/",
+      googlePlay: "https://play.google.com/store/apps/details?id=com.system.sb_clinics&hl=en",
+      amazon: "https://www.amazon.com/Soul-Body-SB-System/dp/B0DVT2SJV1?refinements=p_4%3ASoul%20Body&search-type=ss",
+      huawei: "https://appgallery.huawei.com/app/C113388227",
     },
-    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-1.2.1&auto=format&fit=crop&q=80",
+    image: "https://appimg-dra.dbankcdn.com/application/icon144/65/38b82757354c41aa865d1e89100f337f.png",
   },
   {
     id: 3,
@@ -54,11 +54,11 @@ const projects: Project[] = [
     longDescription: "Mobile HR solution: Attendance tracking, request approvals, and manager dashboards. Built with Flutter and Python/Frappe backend. Implemented location-based check-in/check-out system with validation and custom dashboards for different management levels.",
     tech: ["Flutter", "Python", "Frappe", "Dart", "REST APIs", "MVVM"],
     links: {
-      googlePlay: "https://play.google.com/store",
-      appStore: "https://www.apple.com/app-store/",
-      amazon: "https://www.amazon.com/appstore",
+      googlePlay: "https://play.google.com/store/apps/details?id=com.svg.smart_vision&hl=en",
+      appStore: "https://apps.apple.com/us/app/smart-vision-group/id6741403431?platform=iphone",
+      amazon: "https://www.amazon.com/dp/B0DSLTKSNV",
     },
-    image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&auto=format&fit=crop&q=80",
+    image: "https://play-lh.googleusercontent.com/0plqRCgesMD84DWoFEr2J4ZTBSeiDGi1RCTgKTTZvBN8c6T0gK6Q7BdlYPPm34i1LLE=w480-h960",
   },
   {
     id: 4,
@@ -67,11 +67,11 @@ const projects: Project[] = [
     longDescription: "Healthcare booking app with Vezeeta-like features: doctor/surgery scheduling and pharmacy orders. Created a seamless user experience for healthcare appointment booking with calendar integration and notification system for appointment reminders.",
     tech: ["Flutter", "Dart", "MVVM", "Appointment System"],
     links: {
-      googlePlay: "https://play.google.com/store",
-      amazon: "https://www.amazon.com/appstore",
-      huawei: "https://appgallery.huawei.com/",
+      googlePlay: "https://play.google.com/store/apps/details?id=com.sb.patient_soul_body.huawei&hl=en",
+      amazon: "https://www.amazon.com/dp/B0DTQ8BZ21",
+      huawei: "https://appgallery.huawei.com/app/C112042341?sharePrepath=ag&locale=en_US&source=appshare&subsource=C112042341&shareTo=com.android.bluetooth&shareFrom=appmarket&shareIds=d1858e2085c14b909bd431967d29723a_com.android.bluetooth&callType=SHARE",
     },
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&auto=format&fit=crop&q=80",
+    image: "https://play-lh.googleusercontent.com/a0zDP3bcIZiodnqL9FVn8n7K5R1ByJacJTes6I4C8U8E_M_hNTWvnHO9jkdyOTO77nRT=w480-h960",
   },
   {
     id: 5,
@@ -80,10 +80,10 @@ const projects: Project[] = [
     longDescription: "Complete UI and backend revamp of a club management app. Redesigned the entire user interface and restructured the backend connections to improve performance and user experience. Added location-based features and push notifications for club announcements.",
     tech: ["Flutter", "PHP", "WebView", "Notifications", "Location"],
     links: {
-      googlePlay: "https://play.google.com/store",
-      appStore: "https://www.apple.com/app-store/",
+      googlePlay: "https://play.google.com/store/apps/details?id=com.objects.sporting_club&hl=en",
+      appStore: "https://apps.apple.com/eg/app/alex-sporting-club/id1488603520?platform=iphone",
     },
-    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&q=80",
+    image: "https://play-lh.googleusercontent.com/y_ijcYg02ftOkzkemVuw8Pjq-2-kc3AvCyrvgsQ_acTddO7LrNe56yjCrIupF72aCg=w480-h960",
   },
   {
     id: 6,
@@ -92,9 +92,9 @@ const projects: Project[] = [
     longDescription: "AI-based app for diagnosing diabetes, skin cancer, and analyzing X-rays. Graduation project that integrated multiple machine learning models into a Flutter application. Built with clean architecture principles for maintainability and scalability.",
     tech: ["Flutter", "AI", "Clean Architecture"],
     links: {
-      github: "https://github.com/georgee2",
+      github: "https://github.com/georgee2/elab/tree/master",
     },
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&auto=format&fit=crop&q=80",
+    image: "https://github.com/georgee2/elab/blob/master/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
   },
 ];
 
