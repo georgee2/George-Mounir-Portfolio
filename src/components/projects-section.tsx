@@ -94,7 +94,7 @@ const projects: Project[] = [
     links: {
       github: "https://github.com/georgee2/elab/tree/master",
     },
-    image: "https://github.com/georgee2/elab/blob/master/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    image: "https://raw.githubusercontent.com/georgee2/elab/refs/heads/master/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
   },
 ];
 
