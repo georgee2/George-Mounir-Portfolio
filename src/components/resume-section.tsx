@@ -1,3 +1,4 @@
+
 import { Card, CardContent } from "./ui/card";
 import { Button } from "./ui/button";
 import { FileDown } from "lucide-react";
@@ -28,7 +29,7 @@ const certifications: Certification[] = [
 
 export function ResumeSection() {
   const handleResumeDownload = () => {
-    const resumeUrl = "https://drive.google.com/uc?export=download&id=YOUR_GOOGLE_DRIVE_FILE_ID";
+    const resumeUrl = "https://drive.google.com/uc?export=download&id=1fSGAFg2gYuFSVTVbTkPZzZqRzwGZZpC-";
     const link = document.createElement('a');
     link.href = resumeUrl;
     link.setAttribute('download', 'George_Mounir_Resume.pdf');
